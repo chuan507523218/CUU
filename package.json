@@ -61,7 +61,8 @@
     "@solana/wallet-adapter-react": "^0.15.17",
     "@solana/wallet-adapter-react-ui": "^0.9.16",
     "@solana/wallet-adapter-wallets": "^0.19.13",
-    "@solana/web3.js": "^1.91.6"
+    "@solana/web3.js": "^1.91.6",
+    "@metaplex/js": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^22",
