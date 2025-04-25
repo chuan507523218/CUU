@@ -1,6 +1,7 @@
 "use client"
 
 import { useRef } from "react"
+import Navbar from "@/components/Navbar" // 引入 Navbar
 import TableOfContents from "@/components/table-of-contents"
 import HeroSection from "@/components/hero-section"
 import AboutBuiltt from "@/components/sections/about-builtt"
@@ -18,6 +19,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
+      <Navbar />  {/* 在顶部插入 Navbar */}
       <HeroSection nextSectionRef={firstSectionRef} />
       <div className="bg-primary text-primary-foreground flex-grow">
         <div className="container mx-auto px-4 py-8 flex gap-8">
