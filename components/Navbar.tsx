@@ -6,7 +6,7 @@ import { useWallet } from '@solana/wallet-adapter-react';
 import { Connection, PublicKey } from '@solana/web3.js';
 
 // 代币的合约地址
-const TOKEN_MINT_ADDRESS = new PublicKey('D2L6EzCh2J2LfS7zR5AsRLj7a9mzBvGDYPgutsU5pump');
+const TOKEN_MINT_ADDRESS = new PublicKey('7jKsgNDk3iz25NBN4XmLhS6knMmZytQjuMWH6Qvgpump');
 
 export default function Navbar() {
   const { publicKey, connected } = useWallet();
